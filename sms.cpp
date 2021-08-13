@@ -1,10 +1,3 @@
-//**********************************************************
-// PROJECT SALES MANAGEMENT
-//**********************************************************
-
-//**********************************************************
-// INCLUDED HEADER FILES
-//**********************************************************
 
 #include <iostream.h>
 #include <fstream.h>
@@ -17,11 +10,6 @@
 #include <dos.h>
 
 
-//**********************************************************
-// CLASS NAME : Menu
-// DETAILS : IT CONTROLLS OVER ALL THE FUNCTIONS
-//**********************************************************
-
 class menu
 {
 public :
@@ -30,12 +18,6 @@ private :
     void edit_menu(void) ;
 } ;
 
-
-//**********************************************************
-// CLASS NAME : Product
-// DETAILS : IT CONTROLLS OVER ALL THE FUNCTIONS
-// RELATED TO PRODUCT ITEMS
-//**********************************************************
 
 class product
 {
@@ -60,12 +42,6 @@ private :
 } ;
 
 
-//**********************************************************
-// CLASS NAME : Account
-// DETAILS : IT CONTROLLS OVER ALL THE FUNCTIONS
-// RELATED TO MAKING BILL
-//**********************************************************
-
 class account
 {
 public :
@@ -81,10 +57,6 @@ private :
     char name[30] ;
 } ;
 
-
-//**********************************************************
-// THIS FUNCTION CREATE MAIN MENU AND CALLS OTHER FUNCTIONS
-//**********************************************************
 
 void menu :: main_menu(void)
 {
@@ -138,10 +110,6 @@ void menu :: main_menu(void)
     }
 }
 
-
-//**********************************************************
-// THIS FUNCTION CREATE EDIT MENU AND CALLS OTHER FUNCTIONS
-//**********************************************************
 
 void menu :: edit_menu(void)
 {
